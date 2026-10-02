@@ -1,0 +1,15 @@
+{
+  "$comment": "Pinned grammar assets vendored into src/parsers by scripts/update-tree-sitter-assets.ts. Markdown ships with OpenTUI and needs no entry here.",
+  "parsers": [
+    {
+      "filetype": "csharp",
+      "wasm": "node_modules/tree-sitter-wasms/out/tree-sitter-c_sharp.wasm",
+      "highlights": "https://raw.githubusercontent.com/tree-sitter/tree-sitter-c-sharp/v0.20.0/queries/highlights.scm"
+    },
+    {
+      "filetype": "json",
+      "wasm": "node_modules/tree-sitter-wasms/out/tree-sitter-json.wasm",
+      "highlights": "https://raw.githubusercontent.com/tree-sitter/tree-sitter-json/v0.20.2/queries/highlights.scm"
+    }
+  ]
+}

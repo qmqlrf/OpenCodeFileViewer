@@ -1,0 +1,28 @@
+Third-party notices
+===================
+
+This project reuses or bundles the following third-party work.
+
+OpenCode (MIT License)
+----------------------
+The lazy file-tree model and keyboard navigation helpers in `src/lib/tree.ts`
+are adapted from the OpenCode TUI diff viewer:
+
+  packages/tui/src/feature-plugins/system/diff-viewer-file-tree-utils.ts
+  packages/tui/src/feature-plugins/system/diff-viewer-file-tree.tsx
+
+  Copyright (c) OpenCode contributors
+  https://github.com/anomalyco/opencode
+
+OpenTUI (MIT License)
+---------------------
+Syntax highlighting is rendered with OpenTUI and its bundled Tree-sitter
+support. https://github.com/anomalyco/opentui
+
+Tree-sitter grammars
+--------------------
+The C# and JSON grammars vendored under `src/parsers/` come from:
+
+  tree-sitter-wasms (Unlicense)            https://github.com/Gregoor/tree-sitter-wasms
+  tree-sitter-c-sharp (MIT)                https://github.com/tree-sitter/tree-sitter-c-sharp
+  tree-sitter-json (MIT)                   https://github.com/tree-sitter/tree-sitter-json

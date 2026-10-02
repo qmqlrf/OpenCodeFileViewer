@@ -1,0 +1,58 @@
+{
+  "name": "opencode-file-viewer",
+  "version": "0.1.0",
+  "description": "A file viewer panel plugin for OpenCode (TUI): browse the workspace and preview files with syntax highlighting.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/REPLACE_OWNER/opencode-file-viewer.git"
+  },
+  "homepage": "https://github.com/REPLACE_OWNER/opencode-file-viewer#readme",
+  "bugs": {
+    "url": "https://github.com/REPLACE_OWNER/opencode-file-viewer/issues"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "tui",
+    "file-viewer",
+    "tree-sitter",
+    "syntax-highlighting"
+  ],
+  "exports": {
+    ".": "./src/index.ts",
+    "./server": "./src/index.ts",
+    "./tui": "./src/tui.tsx"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "opencode": ">=2.0.6"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "bun test",
+    "update:tree-sitter": "bun ./scripts/update-tree-sitter-assets.ts"
+  },
+  "dependencies": {
+    "@opencode/plugin": "2.0.6"
+  },
+  "peerDependencies": {
+    "@opentui/core": ">=0.5.10",
+    "@opentui/solid": ">=0.5.10",
+    "solid-js": ">=1.9.0"
+  },
+  "devDependencies": {
+    "@opencode/client": "2.0.6",
+    "@opencode/theme": "2.0.6",
+    "@opentui/core": "0.5.10",
+    "@opentui/solid": "0.5.10",
+    "@tsconfig/bun": "^1.0.7",
+    "@types/bun": "^1.1.14",
+    "solid-js": "1.9.12",
+    "tree-sitter-wasms": "0.1.13",
+    "typescript": "^5.7.3"
+  }
+}
