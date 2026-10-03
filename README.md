@@ -20,13 +20,13 @@ OpenCode 的 TUI 文件查看器插件：在会话里打开一个面板，浏览
 ### 1. 让 OpenCode 安装本插件
 
 ```sh
-opencode plugin add github:<owner>/opencode-file-viewer
+opencode plugin add github:qmqlrf/opencode-file-viewer
 ```
 
 或手动加到全局配置 `opencode.jsonc` / `cli.json`：
 
 ```jsonc
-{ "plugins": ["github:<owner>/opencode-file-viewer"] }
+{ "plugins": ["github:qmqlrf/opencode-file-viewer"] }
 ```
 
 重启 OpenCode。
