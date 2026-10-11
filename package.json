@@ -6,11 +6,11 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qmqlrf/opencode-file-viewer.git"
+    "url": "git+https://github.com/qmqlrf/OpenCodeFileViewer.git"
   },
-  "homepage": "https://github.com/qmqlrf/opencode-file-viewer#readme",
+  "homepage": "https://github.com/qmqlrf/OpenCodeFileViewer#readme",
   "bugs": {
-    "url": "https://github.com/qmqlrf/opencode-file-viewer/issues"
+    "url": "https://github.com/qmqlrf/OpenCodeFileViewer/issues"
   },
   "keywords": [
     "opencode",
